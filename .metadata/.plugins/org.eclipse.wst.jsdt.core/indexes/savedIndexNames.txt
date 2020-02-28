@@ -1,0 +1,3 @@
+INDEX VERSION 1.3+C:\Users\Acer\workspace_web_servise\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2072786688.index
+539777642.index
