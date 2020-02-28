@@ -1,0 +1,18 @@
+package web_server_meg_i9;
+
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebService;
+import javax.validation.constraints.NotNull;
+
+
+@WebService
+public class myfirstSOAPWebServise {
+	
+	@WebMethod
+	public String ping(@WebParam(name="name") @NotNull String nome){
+	
+		return " pong ! "+nome;
+	
+	}
+}
